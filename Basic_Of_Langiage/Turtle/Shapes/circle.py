@@ -1,11 +1,11 @@
-from  turtle import * #type:ignore
+import turtle
 
-bgcolor("black")
+turtle.bgcolor("black")
 colors = ['red','dark red']
 
 for num in range(400):
-    forward(num+1)
-    right(89)
-    pencolor(colors[num%2])
+    turtle.forward(num+1)
+    turtle.right(89)
+    turtle.pencolor(colors[num%2])
     
-done()
+turtle.done()
